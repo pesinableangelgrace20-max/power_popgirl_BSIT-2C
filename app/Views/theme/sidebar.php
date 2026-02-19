@@ -69,7 +69,6 @@ body.dark-mode .main-sidebar .nav-link:hover {
 
 </style>
 
-
 <aside class="main-sidebar sidebar-light-light sidebar-light elevation-5" id="mainSidebar">
 <div class="brand-link bg-warning" id="brandLink" style="cursor: default; border-bottom: 1px rgba(255, 255, 255);">
     <img src="<?= base_url('assets/adminlte/dist/img/AdminLTELogo.png') ?>" 
@@ -91,6 +90,12 @@ body.dark-mode .main-sidebar .nav-link:hover {
       <a href="<?= base_url('log') ?>" class="nav-link <?= is_active(1, 'log') ?>">
         <i class="nav-icon fas fa-history"></i>
         <p>Activity Logs</p>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="<?= base_url('profiling') ?>" class="nav-link <?= is_active(1, 'profiling') ?>">
+        <i class="nav-icon fas fa-id-card"></i>
+        <p>Profiling</p>
       </a>
     </li>
      <li class="nav-item">
